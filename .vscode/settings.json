@@ -1,0 +1,16 @@
+{
+    "markdownlint.config": {
+        "MD029": false,
+        "MD009": false,
+        "MD010": true,
+        "MD031": true,
+        "MD032": true,
+        "MD022": true,
+        "MD030": true
+    },
+    "markdown.extension.print.theme": "dark",
+    "markdown.extension.completion.enabled": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.toc.orderedList": true,
+    "markdown.validate.enabled": false
+}
