@@ -10,7 +10,7 @@
     },
     "markdown.extension.print.theme": "dark",
     "markdown.extension.completion.enabled": true,
-    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.preview.autoShowPreviewToSide": false,
     "markdown.extension.toc.orderedList": true,
     "markdown.validate.enabled": false
 }
