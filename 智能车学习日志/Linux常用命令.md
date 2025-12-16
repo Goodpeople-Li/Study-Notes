@@ -4,7 +4,7 @@
     ls -alh
    ```
    注：ls是 "list" 的缩写。
-   -cd - 更改目录
+   - cd - 更改目录
    ```
     cd /home/user/Documents
    ```
@@ -73,3 +73,31 @@
      chmod 755 script.sh
     ```
      注：chmod是 "change mode" 的缩写。
+ - chmod权限说明：
+     - 7：读、写、执行权限（4+2+1）
+     - 6：读、写权限（4+2）
+     - 5：读、执行权限（4+1）
+     - 4：读权限
+     - 3：写、执行权限（2+1）
+     - 2：写权限
+     - 1：执行权限
+     - 0：无权限
+   - 示例：`chmod 755 script.sh`表示所有者有读、写、执行权限，组用户和其他用户有读、执行权限。
+   - 示例：`chmod 644 file.txt`表示所有者有读、写权限，组用户和其他用户只有读权限。
+   - 示例：`chmod +x script.sh`表示为文件添加执行权限。
+ - ifconfig - 显示或配置网络接口
+    ```
+     ifconfig
+    ```
+     注：ifconfig是 "interface configuration" 的缩写。
+- mount - 挂载文件系统
+    ```
+     mount /dev/sdb1 /mnt/usb
+    ```
+     注：mount的意思是“挂载”
+
+- echo - 输出文本到终端或文件
+    ```
+     echo "Hello, World!"
+    ```
+     注：echo的意思是“回声”。
